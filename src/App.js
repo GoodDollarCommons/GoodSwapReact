@@ -66,7 +66,7 @@ function App() {
    * Note: User must have cDAI already in their wallet!
    */
   async function sell() {
-    const gdAmountinWei = web3.utils.toWei("100", "Kwei").toString()
+    const gdAmountinWei = web3.utils.toWei("300", "Kwei").toString()
     const gdAddress = "0x4738c5e91c4f809da21dd0df4b5ad5f699878c1c" // ropsten address, for other addresses: https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api
     const grAddress = "0x5810950BF9184F286f1C33b2cf80533D2CB274AF" // ropsten address, for other addresses: https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api
     const cdaiAddress = "0x6ce27497a64fffb5517aa4aee908b1e7eb63b9ff" // ropsten cDAI
